@@ -5,13 +5,11 @@ import style from './MainPage.module.css';
 
 const MainPage = () => {
     return (
-        <div className={style['main-page']}>
-            <div className={style['branch']}>
-                <FirstSection />
-                <SecondSection />
-                {/* <Footer /> */}
-            </div>
-        </div>
+        <>
+            <FirstSection />
+            <SecondSection />
+            {/* <Footer /> */}
+        </>
     );
 
 }
