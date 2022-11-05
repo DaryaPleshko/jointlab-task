@@ -1,0 +1,7 @@
+.container{
+    background-image: url('./assets/fon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1525px;
+    height: 910px;
+}
